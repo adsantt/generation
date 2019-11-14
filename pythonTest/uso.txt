@@ -1,0 +1,17 @@
+ ____________________
+|                    |
+|       Test         |
+|____________________|
+
+Esta Api REST es de pruebas para el cliente en java
+en la rama de javaBackend.
+
+Para levantar esta api es necesario estar en este directorio
+posteriormente hacer:
+
+    python test.py
+    python3 test.py (si tienes mas de una version de python instalada)
+
+Despues hacer una peticion GET a la url 'localhost:4000/api/test'
+Este request hara que la api simplemente regrese un Json con
+el mensaje de: "hola, desde python"
