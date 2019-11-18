@@ -5,7 +5,13 @@ app = Flask(__name__)
 
 @app.route("/api/test", methods=['GET'])
 def getInfo():
-    return jsonify({'message': 'hola, desde python'})
+    return {'name': 'Catedral'}
+    #json=request.json["message"]
+    #return 'Catedral'
+
+@app.route('/api/Monumento', methods=['POST'])
+def getName():
+    return request.json
 
 
 if __name__ == "__main__":
