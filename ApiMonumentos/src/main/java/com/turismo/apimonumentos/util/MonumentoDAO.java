@@ -64,10 +64,11 @@ public class MonumentoDAO implements DAO<Monumento> {
 		String message=null;
 		Set<ConstraintViolation<Monumento>> violations=validator.validate(m);
 		if (!violations.isEmpty()) {
-			message="";
-		}
-		for (ConstraintViolation<Monumento> violation:violations) {
-			message+=violation.getMessage();
+			message="Los campos ";
+			for (ConstraintViolation<Monumento> violation:violations) {
+				message+=violation.getMessage()+", ";
+			}
+			message+="no pueden estar vacios";
 		}
 		return message;
 	}
@@ -153,8 +154,8 @@ public class MonumentoDAO implements DAO<Monumento> {
 				+ "WHERE m.eliminado=false AND m.nombre_construccion "
 				+ "LIKE :name")
 				.setParameter("name", '%'+name+'%')
-				.list();
-		
+				.getResultList();
+		System.out.println("Esto es lo que regresa: "+nameList.toString());
 		return nameList;
 	}
 	
@@ -172,7 +173,7 @@ public class MonumentoDAO implements DAO<Monumento> {
 	public Monumento getByPhoto(String json) {
 		
 		Client cliente=ClientBuilder.newClient();
-		WebTarget target=cliente.target("http://localhost:4000/api/Monumento");
+		WebTarget target=cliente.target("http://192.168.100.155:4000/api/test");
 		
 		Invocation.Builder request=target.request(MediaType.APPLICATION_JSON);
 		

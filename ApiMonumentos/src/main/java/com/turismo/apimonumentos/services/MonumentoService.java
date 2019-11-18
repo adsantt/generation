@@ -213,9 +213,10 @@ public class MonumentoService {
 			if (listaNombres.isEmpty()) {
 				mensaje = "No se encontraron monumentos con ese nombre";
 				status = Status.NOT_FOUND;
+			} else {
+				mensaje = "Estos son los monumentos encontrados";
+				status = Status.OK;
 			}
-			mensaje = "Estos son los monumentos encontrados";
-			status = Status.OK;
 		} catch (HibernateException e) {
 			e.printStackTrace();
 			mensaje = "Error en la conexion con la base de datos";

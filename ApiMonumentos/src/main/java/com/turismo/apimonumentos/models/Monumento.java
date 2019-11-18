@@ -22,31 +22,31 @@ public class Monumento {
 	@Column
 	private int contador_usuarios;
 	@Column
-	@NotNull(message = "El nombre no puede estar vacio. ")
+	@NotNull(message = "Nombre")
 	private String nombre_construccion;
 	@Column
-	@NotNull(message = "La fecha de construccion no puede estar vacio. ")
+	@NotNull(message = "Fecha de construccion")
 	private String fecha_construccion;
 	@Column
-	@NotNull(message = "La duracion de la construccion no puede estar vacio. ")
+	@NotNull(message = "Duracion de la construccion")
 	private String duracion_construccion;
 	@Column
-	@NotNull(message = "El tipo de arquitectura no puede estar vacio. ")
+	@NotNull(message = "Tipo de arquitectura")
 	private String tipo_arquitectura;
 	@Column
-	@NotNull(message = "El Arquitecto no puede estar vacio. ")
+	@NotNull(message = "Arquitecto")
 	private String arquitecto;
 	@Column
-	@NotNull(message = "La informacion no puede estar vacio. ")
+	@NotNull(message = "Informacion")
 	private String informacion;
 	@Column
-	@NotNull(message = "Los fun facts no puede estar vacio. ")
+	@NotNull(message = "Fun facts/Leyendas")
 	private String leyendas;
 	@Column
-	@NotNull(message = "El campo restauraciones no puede estar vacio. ")
+	@NotNull(message = "Restauraciones")
 	private boolean contiene_restauraciones;
 	@Column
-	@NotNull(message = "El uso no puede estar vacio. ")
+	@NotNull(message = "Uso")
 	private String uso_edificio;
 	@Column
 	private boolean eliminado;
