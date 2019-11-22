@@ -8,7 +8,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -20,33 +22,34 @@ public class Monumento {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column
+	@PositiveOrZero(message = "El campo \"Contador Usuarios\" debe ser entero y mayor o igual a 0.")
 	private int contador_usuarios;
 	@Column
-	@NotNull(message = "Nombre")
+	@NotEmpty(message = "El campo \"Nombre\" no puede estar vacio.")
 	private String nombre_construccion;
 	@Column
-	@NotNull(message = "Fecha de construccion")
+	@NotEmpty(message = "El campo \"Fecha de construccion\" no puede estar vacio.")
 	private String fecha_construccion;
 	@Column
-	@NotNull(message = "Duracion de la construccion")
+	@NotEmpty(message = "El campo \"Duracion de la construccion\" no puede estar vacio.")
 	private String duracion_construccion;
 	@Column
-	@NotNull(message = "Tipo de arquitectura")
+	@NotEmpty(message = "El campo \"Tipo de arquitectura\" no puede estar vacio.")
 	private String tipo_arquitectura;
 	@Column
-	@NotNull(message = "Arquitecto")
+	@NotEmpty(message = "El campo \"Arquitecto\" no puede estar vacio.")
 	private String arquitecto;
 	@Column
-	@NotNull(message = "Informacion")
+	@NotEmpty(message = "El campo \"Informacion\" no puede estar vacio.")
 	private String informacion;
 	@Column
-	@NotNull(message = "Fun facts/Leyendas")
+	@NotEmpty(message = "El campo \"Fun facts/Leyendas\" no puede estar vacio.")
 	private String leyendas;
 	@Column
-	@NotNull(message = "Restauraciones")
+	@NotNull(message = "El campo \"Restauraciones\" no puede estar vacio.")
 	private boolean contiene_restauraciones;
 	@Column
-	@NotNull(message = "Uso")
+	@NotEmpty(message = "El campo \"Uso\" no puede estar vacio.")
 	private String uso_edificio;
 	@Column
 	private boolean eliminado;

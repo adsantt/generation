@@ -5,7 +5,7 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://<!-- 192.168.3.230-->localhost:3306/gdlhistorica?serverTimezone=UTC</property>
+		<property name="connection.url">jdbc:mysql://<!-- 192.168.3.230 -->localhost:3306/gdlhistorica?serverTimezone=UTC</property>
 		
 		<property name="connection.username">root</property>
 		<property name="connection.password"><!-- BANmmk03925 -->penelope96</property>
@@ -14,4 +14,4 @@
 		
 		<mapping class="com.turismo.apimonumentos.models.Monumento"/>
 	</session-factory>
-</hibernate-configuration>
+</hibernate-configuration> 

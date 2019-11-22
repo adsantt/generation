@@ -1,5 +1,6 @@
 package com.turismo.apimonumentos.services;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -74,19 +75,19 @@ public class MonumentoService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response guardarMonumento(Monumento m) {
 
-		response = null;
-		mensaje = null;
+		response = new HashMap<>();
+		ArrayList<String>mensaje1 = null;
 		Status status = Status.INTERNAL_SERVER_ERROR;
 
-		mensaje = monumentoDAO.validateBean(m);
+		mensaje1=(ArrayList<String>) monumentoDAO.validateBean(m);
 
-		if (mensaje == null) {
+		if (mensaje1 == null) {
 			try {
 				monumentoDAO.getConnectionWTransaction();
 				boolean isSuccessful = monumentoDAO.create(m);
 				monumentoDAO.closeConnectionWTransaction();
 				if (isSuccessful) {
-					status = Status.OK;
+					status = Status.CREATED;
 					mensaje = "Monumento guardado correctamente";
 				} else if (!isSuccessful) {
 					status = Status.CONFLICT;
@@ -108,11 +109,14 @@ public class MonumentoService {
 				e.printStackTrace();
 				mensaje = "Error";
 			}
+			
+			response.put("mensaje", mensaje);
+		} else {	
+			response.put("mensaje", mensaje1);
+			status=Status.BAD_REQUEST;
 		}
-
-		response = new HashMap<>();
+		
 		response.put("data", m);
-		response.put("mensaje", mensaje);
 
 		return Response.status(status).entity(response).build();
 	}
@@ -269,7 +273,7 @@ public class MonumentoService {
 	}
 
 	@GET
-	@Path("populares/{numero}")
+	@Path("populares/{numero: \\d+}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getMonumentosByPopularity(@PathParam("numero") int n) {
 
@@ -317,9 +321,12 @@ public class MonumentoService {
 			monumentoDAO.getConnectionWTransaction();
 			monumento = monumentoDAO.getByPhoto(jsonImagen);
 			monumentoDAO.closeConnectionWTransaction();
-			if (monumento != null) {
+			if (monumento == null) {
+				mensaje="Monumento no encontrado";
+				status=Status.NOT_FOUND;
+			} else {
 				mensaje = "Se muestra el objeto detectado";
-				status = Status.OK;
+				status = Status.OK;				
 			}
 		} catch (HibernateException e) {
 			e.printStackTrace();

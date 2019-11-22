@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hHBpYAyoEeqrNqXyN2-duw">
+  <modelElement href="ApiMonumentos.uml#_hni8ggyoEeqrNqXyN2-duw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lbERcAyoEeqrNqXyN2-duw" sourceAnchor="193.0,0.0" targetAnchor="185.0,392.0" target="_lbu_0AyoEeqrNqXyN2-duw" source="_lbIi4AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iBEPwAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_aS50xAypEeqrNqXyN2-duw" position="71.0,828.0"/>
+    <stereotypes xmi:id="_lbERcQyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_iBPO4AyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lbERcgyoEeqrNqXyN2-duw" text="+">
+      <visualProperties xmi:id="_l6oiUAyoEeqrNqXyN2-duw" position="-93.0,-38.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lbERcwyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iBEPwQyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_l6mtIAyoEeqrNqXyN2-duw" position="-19.000000000000007,-63.0"/>
+      <visibility xmi:id="_lbERdAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbE4gAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lbE4gQyoEeqrNqXyN2-duw" aggregationKind="NONE" name="monumentoDAO" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_h-AUsAyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_l6pJYAyoEeqrNqXyN2-duw" position="1.0,8.0"/>
+      <visibility xmi:id="_lbE4ggyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbE4gwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lbGtsAyoEeqrNqXyN2-duw" sourceAnchor="0.0,79.0" targetAnchor="57.0,29.0" source="_lbIi4AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iBPO4QyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_aS6b0AypEeqrNqXyN2-duw" position="71.0,828.0"/>
+    <stereotypes xmi:id="_lbGtsQyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_iBXxwAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lbGtsgyoEeqrNqXyN2-duw" text="">
+      <visualProperties xmi:id="_aaLhcAypEeqrNqXyN2-duw" position="-21.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lbGtswyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iBPO4gyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_aaK6YAypEeqrNqXyN2-duw" position="-17.0,2.0"/>
+      <visibility xmi:id="_lbGttAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbGttQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lbGttgyoEeqrNqXyN2-duw" aggregationKind="NONE" name="response" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_h-D_EAyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_aaLhcQypEeqrNqXyN2-duw" position="0.0,-57.0"/>
+      <visibility xmi:id="_lbGttwyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbGtuAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_lbHUwAyoEeqrNqXyN2-duw">
+        <qualifiers xmi:id="_lbHUwQyoEeqrNqXyN2-duw">
+          <modelElement href="ApiMonumentos.uml#_h-F0QAyoEeqrNqXyN2-duw"/>
+          <visibility xmi:id="_lbHUwgyoEeqrNqXyN2-duw" label="+"/>
+          <cardinality xmi:id="_lbHUwwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+          <type xmi:id="_lbHUxAyoEeqrNqXyN2-duw" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lbsjkAyoEeqrNqXyN2-duw" sourceAnchor="375.0,134.0" targetAnchor="0.0,38.0" target="_DDknYAypEeqrNqXyN2-duw" source="_lbu_0AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iBftkQyoEeqrNqXyN2-duw"/>
+    <stereotypes xmi:id="_lbtKoAyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_iBmbQAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lbtKoQyoEeqrNqXyN2-duw" text="">
+      <visualProperties xmi:id="_DKuYQAypEeqrNqXyN2-duw" position="-32.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lbtKogyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iBftkgyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_DKtxMAypEeqrNqXyN2-duw" position="65.0,2.0"/>
+      <visibility xmi:id="_lbtKowyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbtKpAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lbtKpQyoEeqrNqXyN2-duw" aggregationKind="NONE" name="session" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_iAavgQyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_DKu_UAypEeqrNqXyN2-duw" position="-79.0,-57.0"/>
+      <stereotypes xmi:id="_BDzgUAyvEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_iAbWkAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbtKpgyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbtKpwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lbuYwAyoEeqrNqXyN2-duw" source="_lbu_0AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iBmbQQyoEeqrNqXyN2-duw"/>
+    <stereotypes xmi:id="_lbuYwQyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_iBuXEAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lbuYwgyoEeqrNqXyN2-duw" text=""/>
+    <sourceRole xmi:id="_lbuYwwyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iBmbQgyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbuYxAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbuYxQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lbuYxgyoEeqrNqXyN2-duw" aggregationKind="NONE" name="tx" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_iAbWkQyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_BD0HYAyvEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_iAb9oAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbuYxwyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbuYyAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lcsCEAyoEeqrNqXyN2-duw" sourceAnchor="115.0,0.0" targetAnchor="42.0,76.0" target="_DDknYAypEeqrNqXyN2-duw" source="_lcvscAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iBXxwQyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_DDknZAypEeqrNqXyN2-duw" position="801.0,476.0"/>
+    <stereotypes xmi:id="_lct3QQyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_iBftkAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lctQMAyoEeqrNqXyN2-duw" text="">
+      <visualProperties xmi:id="_DKwNcAypEeqrNqXyN2-duw" position="-43.0,-3.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lctQMQyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iBXxwgyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_DKu_UQypEeqrNqXyN2-duw" position="5.0,-42.0"/>
+      <visibility xmi:id="_lcueUAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lct3QgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lct3QAyoEeqrNqXyN2-duw" aggregationKind="NONE" name="session" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_iAaIcAyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_DKwNcQypEeqrNqXyN2-duw" position="6.0,4.0"/>
+      <stereotypes xmi:id="_BD0ucAyvEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_iAavgAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lcueUgyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lcueUQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lc2aIAyoEeqrNqXyN2-duw" sourceAnchor="173.0,0.0" targetAnchor="136.0,206.0" dashed="true" superClass="_lc9H0AyoEeqrNqXyN2-duw" subClass="_lbu_0AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_h7kEsQyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_9D4V0AyoEeqrNqXyN2-duw" position="-22.0,48.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lc8gwAyoEeqrNqXyN2-duw" sourceAnchor="70.0,27.0" targetAnchor="0.0,66.0" target="_lc9H0AyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_iAx74AyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_JjZxkAypEeqrNqXyN2-duw" position="-22.0,48.0"/>
+    <nameVisual xmi:id="_lc8gwQyoEeqrNqXyN2-duw" text="">
+      <visualProperties xmi:id="_JqROkAypEeqrNqXyN2-duw" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lc8gwgyoEeqrNqXyN2-duw" aggregationKind="NONE" name="all" navigable="true">
+      <modelElement href="ApiMonumentos.uml#_hp1bgAyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_JqQngAypEeqrNqXyN2-duw" position="26.625,2.0"/>
+      <visibility xmi:id="_lc8gwwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc8gxAyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lc8gxQyoEeqrNqXyN2-duw" aggregationKind="NONE" name="">
+      <modelElement href="ApiMonumentos.uml#_iAx74QyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_JqR1oAypEeqrNqXyN2-duw" position="-31.73333333333332,-57.0"/>
+      <visibility xmi:id="_lc8gxgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc8gxwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4QYKkAyoEeqrNqXyN2-duw" sourceAnchor="305.0,0.0" targetAnchor="94.0,76.0" dashed="true" superClass="_4QYxoAyoEeqrNqXyN2-duw" subClass="_ldPbsAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_h9O4oAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_4QZYsAyoEeqrNqXyN2-duw" position="-272.0,1276.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_S_LvgAypEeqrNqXyN2-duw" sourceAnchor="34.0,0.0" targetAnchor="46.0,54.0" superClass="_S_MWkAypEeqrNqXyN2-duw" subClass="_lYBkgAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_h8mmgAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_S_M9oAypEeqrNqXyN2-duw" position="861.0,757.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_N9aIoAyyEeqrNqXyN2-duw" targetItem="_lZ9eeQyoEeqrNqXyN2-duw" sourceItem="_N9ZhkAyyEeqrNqXyN2-duw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_N94CsQyyEeqrNqXyN2-duw" targetItem="_lZ9egAyoEeqrNqXyN2-duw" sourceItem="_N94CsAyyEeqrNqXyN2-duw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lbu_0AyoEeqrNqXyN2-duw" name="MonumentoDAO" associationsIn="_lbERcAyoEeqrNqXyN2-duw" associationsOut="_lbsjkAyoEeqrNqXyN2-duw _lbuYwAyoEeqrNqXyN2-duw" generalizations="_lc2aIAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hq-rAAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lbu_0QyoEeqrNqXyN2-duw" position="-209.0,206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lbu_0gyoEeqrNqXyN2-duw" label="+"/>
+    <attributes xmi:id="_lbu_0wyoEeqrNqXyN2-duw" defaultValue="null" name="session">
+      <modelElement href="ApiMonumentos.uml#_iAavgQyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_BEIQcAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BEI3gAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BEOXEAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_lbu_1QyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbu_1gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbu_1wyoEeqrNqXyN2-duw" name="Session">
+        <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lbu_2AyoEeqrNqXyN2-duw" defaultValue="null" name="tx">
+      <modelElement href="ApiMonumentos.uml#_iAbWkQyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_BEKssAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BEL60AyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BEO-IAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_lbu_2gyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbu_2wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbu_3AyoEeqrNqXyN2-duw" name="Transaction">
+        <modelElement href="ApiMonumentos.uml#_h7LDIQyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lbu_3QyoEeqrNqXyN2-duw" name="getConnection">
+      <modelElement href="ApiMonumentos.uml#_hrAgMAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbu_3gyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_3wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbu_4AyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h961IAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbu_4QyoEeqrNqXyN2-duw" name="Session">
+          <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lbu_4gyoEeqrNqXyN2-duw" name="closeConnection">
+      <modelElement href="ApiMonumentos.uml#_hrBHQAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbu_4wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_5AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lbu_5QyoEeqrNqXyN2-duw" name="getConnectionWTransaction">
+      <modelElement href="ApiMonumentos.uml#_hrBuUAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbu_5gyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_5wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbu_6AyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h97cMAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbu_6QyoEeqrNqXyN2-duw" name="Session">
+          <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lbu_6gyoEeqrNqXyN2-duw" name="closeConnectionWTransaction">
+      <modelElement href="ApiMonumentos.uml#_hrCVYAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbu_6wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_7AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lbu_7QyoEeqrNqXyN2-duw" name="rollback">
+      <modelElement href="ApiMonumentos.uml#_hrC8cAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbu_7gyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_7wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lbu_8AyoEeqrNqXyN2-duw" name="getAll">
+      <modelElement href="ApiMonumentos.uml#_hrDjgAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbu_8QyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hrFYsAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbu_8gyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hrF_wAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbu_8wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_9AyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lbu_9QyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_hrEKkAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbu_9gyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lbu_9wyoEeqrNqXyN2-duw" name="getByName">
+      <modelElement href="ApiMonumentos.uml#_hrGm0AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbu_-AyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hrHN4AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbu_-QyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hrH08AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbu_-gyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbu_-wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbu__AyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h7400gyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbu__QyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbu__gyoEeqrNqXyN2-duw" name="nombre">
+        <modelElement href="ApiMonumentos.uml#_hrGm0QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbu__wyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvAAAyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvAAQyoEeqrNqXyN2-duw" name="delete">
+      <modelElement href="ApiMonumentos.uml#_hrH08gyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbvAAgyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hrIcAQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbvAAwyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hrJDEAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbvABAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvABQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lbvABgyoEeqrNqXyN2-duw" name="id">
+        <modelElement href="ApiMonumentos.uml#_hrIcAAyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvABwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvACAyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvACQyoEeqrNqXyN2-duw" name="getNames">
+      <modelElement href="ApiMonumentos.uml#_hrK4QAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbvACgyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hrMtcAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbvACwyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hrMtcQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbvADAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvADQyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lbvADgyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_hrK4QgyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbvADwyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbvAEAyoEeqrNqXyN2-duw" name="name">
+        <modelElement href="ApiMonumentos.uml#_hrK4QQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvAEQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvAEgyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvAEwyoEeqrNqXyN2-duw" name="getByPopularity">
+      <modelElement href="ApiMonumentos.uml#_hrNUgAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbvAFAyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hrN7kQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbvAFQyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hrOioAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbvAFgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvAFwyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lbvAGAyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_hrNUggyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbvAGQyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbvAGgyoEeqrNqXyN2-duw" name="n">
+        <modelElement href="ApiMonumentos.uml#_hrNUgQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvAGwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvAHAyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvm4AyoEeqrNqXyN2-duw" name="getByPhoto">
+      <modelElement href="ApiMonumentos.uml#_hrPJsQyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbvm4QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvm4gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbvm4wyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h76C8gyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbvm5AyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbvm5QyoEeqrNqXyN2-duw" name="json">
+        <modelElement href="ApiMonumentos.uml#_hrPJsgyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvm5gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvm5wyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvm6AyoEeqrNqXyN2-duw" name="validateBean">
+      <modelElement href="ApiMonumentos.uml#_h7vq4AyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbvm6QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvm6gyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_lbvm6wyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h7w5AAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbvm7AyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbvm7QyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h7vq4QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvm7gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvm7wyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvm8AyoEeqrNqXyN2-duw" name="create">
+      <modelElement href="ApiMonumentos.uml#_h7yHIAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbvm8QyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_h7zVQAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbvm8gyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h7400AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbvm8wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvm9AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbvm9QyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h7yuMQyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbvm9gyoEeqrNqXyN2-duw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbvm9wyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h7yuMAyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvm-AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvm-QyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbvm-gyoEeqrNqXyN2-duw" name="update">
+      <modelElement href="ApiMonumentos.uml#_h75b4AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbvm-wyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_h75b4gyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lbvm_AyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h76C8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbvm_QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbvm_gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lbvm_wyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h75b4QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbvnAAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbvnAQyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_DDknYAypEeqrNqXyN2-duw" name="Session" associationsIn="_lcsCEAyoEeqrNqXyN2-duw _lbsjkAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_DDknYQypEeqrNqXyN2-duw" position="274.0,302.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_DDknYgypEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_h3s4YAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_DDknYwypEeqrNqXyN2-duw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lbIi4AyoEeqrNqXyN2-duw" name="MonumentoService" associationsOut="_lbERcAyoEeqrNqXyN2-duw _lbGtsAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hqBBsAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lbIi4QyoEeqrNqXyN2-duw" position="-217.0,676.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_lbIi4gyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+      <modelElement href="ApiMonumentos.uml#_hqCP0AyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_lbJJ8AyoEeqrNqXyN2-duw" name="Annotations">
+      <modelElement href="ApiMonumentos.uml#_hqQ5UAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_lbJJ8QyoEeqrNqXyN2-duw" label="+"/>
+    <attributes xmi:id="_lbJJ8gyoEeqrNqXyN2-duw" defaultValue="new MonumentoDAO()" name="monumentoDAO">
+      <modelElement href="ApiMonumentos.uml#_h-AUsAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbJJ8wyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbJJ9AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbJJ9QyoEeqrNqXyN2-duw" name="MonumentoDAO">
+        <modelElement href="ApiMonumentos.uml#_hq-rAAyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lbJJ9gyoEeqrNqXyN2-duw" name="response">
+      <modelElement href="ApiMonumentos.uml#_h-D_EAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbJJ9wyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbJJ-AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbJJ-QyoEeqrNqXyN2-duw" name="Object">
+        <modelElement href="ApiMonumentos.uml#_h9Qt0QyoEeqrNqXyN2-duw"/>
+        <stereotypes xmi:id="_aS50wgypEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lbJJ-gyoEeqrNqXyN2-duw" name="mensaje">
+      <modelElement href="ApiMonumentos.uml#_h-GbUAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbJJ-wyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbJJ_AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbJJ_QyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lbJJ_gyoEeqrNqXyN2-duw" name="status">
+      <modelElement href="ApiMonumentos.uml#_h-HCYAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lbJJ_wyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lbJKAAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lbJKAQyoEeqrNqXyN2-duw" name="Status">
+        <modelElement href="ApiMonumentos.uml#_h0jdwQyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lbJKAgyoEeqrNqXyN2-duw" name="getAllMonumentos">
+      <modelElement href="ApiMonumentos.uml#_hqC24AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKAwyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqDd8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKBAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKBQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKBgyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9Z3wAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKBwyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lbJKCAyoEeqrNqXyN2-duw" name="getNombres">
+      <modelElement href="ApiMonumentos.uml#_hqF6MAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKCQyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqHvYAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKCgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKCwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKDAyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9bF4QyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKDQyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKDgyoEeqrNqXyN2-duw" name="nombre">
+        <modelElement href="ApiMonumentos.uml#_hqGhQAyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKDwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKEAyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKEQyoEeqrNqXyN2-duw" name="getMonumentoByName">
+      <modelElement href="ApiMonumentos.uml#_hqKLoAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKEgyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqLZwAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKEwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKFAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKFQyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9bF4gyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKFgyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKFwyoEeqrNqXyN2-duw" name="nombre">
+        <modelElement href="ApiMonumentos.uml#_hqKLoQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKGAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKGQyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKGgyoEeqrNqXyN2-duw" name="getMonumentosByPopularity">
+      <modelElement href="ApiMonumentos.uml#_hqMA0AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKGwyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqNO8QyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKHAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKHQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKHgyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9bs8AyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKHwyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKIAyoEeqrNqXyN2-duw" name="n">
+        <modelElement href="ApiMonumentos.uml#_hqMA0QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKIQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKIgyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKIwyoEeqrNqXyN2-duw" name="getMonumentoPorFoto">
+      <modelElement href="ApiMonumentos.uml#_hqN2AgyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKJAyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqPrMAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKJQyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKJgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKJwyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9bs8QyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKKAyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKKQyoEeqrNqXyN2-duw" name="jsonImagen">
+        <modelElement href="ApiMonumentos.uml#_hqOdEAyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKKgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKKwyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKLAyoEeqrNqXyN2-duw" name="guardarMonumento">
+      <modelElement href="ApiMonumentos.uml#_h1pC4AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKLQyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h1pp8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKLgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKLwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKMAyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9ae0AyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKMQyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKMgyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h1pC4QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKMwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKNAyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKNQyoEeqrNqXyN2-duw" name="actualizarMonumento">
+      <modelElement href="ApiMonumentos.uml#_h1qRAAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKNgyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h1rfIAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKNwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKOAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKOQyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9ae0QyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKOgyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKOwyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h1qRAQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKPAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKPQyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lbJKPgyoEeqrNqXyN2-duw" name="eliminarMonumento">
+      <modelElement href="ApiMonumentos.uml#_h1sGMAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lbJKPwyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h1stQAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lbJKQAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lbJKQQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lbJKQgyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9bF4AyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lbJKQwyoEeqrNqXyN2-duw" name="Response">
+          <modelElement href="ApiMonumentos.uml#_h0YeoQyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lbJKRAyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h1sGMQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lbJKRQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lbJKRgyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lcvscAyoEeqrNqXyN2-duw" name="DatabaseConnector" associationsOut="_lcsCEAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hq6ZkAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lcvscQyoEeqrNqXyN2-duw" position="201.0,485.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lcvscgyoEeqrNqXyN2-duw" label="+"/>
+    <attributes xmi:id="_lcvscwyoEeqrNqXyN2-duw" name="session" staticAttribute="true">
+      <modelElement href="ApiMonumentos.uml#_iAaIcAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_BENI8AyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BENI8QyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BEQzUAyvEeqrNqXyN2-duw" name="LegacyStyledElement"/>
+      <visibility xmi:id="_lcvsdQyoEeqrNqXyN2-duw" label="-"/>
+      <cardinality xmi:id="_lcvsdgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lcvsdwyoEeqrNqXyN2-duw" name="Session">
+        <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lcvseAyoEeqrNqXyN2-duw" name="getConnection" staticOperation="true">
+      <modelElement href="ApiMonumentos.uml#_hq8OwAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lcvseQyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lcvsegyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lcvsewyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h95nAAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lcvsfAyoEeqrNqXyN2-duw" name="Session">
+          <modelElement href="ApiMonumentos.uml#_h3k8kAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lcvsfQyoEeqrNqXyN2-duw" name="closeConnection" staticOperation="true">
+      <modelElement href="ApiMonumentos.uml#_hq8OwQyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lcvsfgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lcvsfwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_4QYxoAyoEeqrNqXyN2-duw" name="ContainerResponseFilter" subclassedBy="_4QYKkAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hwvUwQyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_4QYxoQyoEeqrNqXyN2-duw" position="489.0,590.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4QYxogyoEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_hw5FwAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_4QYxowyoEeqrNqXyN2-duw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S_MWkAypEeqrNqXyN2-duw" name="Application" subclassedBy="_S_LvgAypEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hvjB8AyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_S_MWkQypEeqrNqXyN2-duw" position="286.0,-61.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_S_MWkgypEeqrNqXyN2-duw" name="Reference">
+      <modelElement href="ApiMonumentos.uml#_hvxrcAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_S_MWkwypEeqrNqXyN2-duw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_lc9H0AyoEeqrNqXyN2-duw" name="DAO" associationsIn="_lc8gwAyoEeqrNqXyN2-duw" subclassedBy="_lc2aIAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hpy_QAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lc9H0QyoEeqrNqXyN2-duw" position="-172.0,-117.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_lc9H0gyoEeqrNqXyN2-duw" name="Generics">
+      <modelElement href="ApiMonumentos.uml#_hp00cAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_lc9H0wyoEeqrNqXyN2-duw" label="+"/>
+    <attributes xmi:id="_lc9H1AyoEeqrNqXyN2-duw" name="all">
+      <modelElement href="ApiMonumentos.uml#_hp1bgAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lc9H1QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc9H1gyoEeqrNqXyN2-duw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_lc9H1wyoEeqrNqXyN2-duw" name="T">
+        <modelElement href="ApiMonumentos.uml#_h8nNkAyoEeqrNqXyN2-duw"/>
+        <stereotypes xmi:id="_JjZKggypEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lc9H2AyoEeqrNqXyN2-duw" name="getByName">
+      <modelElement href="ApiMonumentos.uml#_hp3QsAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lc9H2QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc9H2gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lc9H2wyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9LOQAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lc9H3AyoEeqrNqXyN2-duw" name="T">
+          <modelElement href="ApiMonumentos.uml#_h8nNkAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lc9H3QyoEeqrNqXyN2-duw" name="nombre">
+        <modelElement href="ApiMonumentos.uml#_hp3QsQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lc9H3gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lc9H3wyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lc9H4AyoEeqrNqXyN2-duw" name="delete">
+      <modelElement href="ApiMonumentos.uml#_hp33wAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lc9H4QyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc9H4gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lc9H4wyoEeqrNqXyN2-duw" name="id">
+        <modelElement href="ApiMonumentos.uml#_hp33wQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lc9H5AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lc9H5QyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lc9H5gyoEeqrNqXyN2-duw" name="create">
+      <modelElement href="ApiMonumentos.uml#_h9JZEQyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lc9H5wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc9H6AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lc9H6QyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9KnMAyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lc9H6gyoEeqrNqXyN2-duw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lc9H6wyoEeqrNqXyN2-duw" name="t">
+        <modelElement href="ApiMonumentos.uml#_h9JZEgyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lc9H7AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lc9H7QyoEeqrNqXyN2-duw" name="T">
+          <modelElement href="ApiMonumentos.uml#_h8nNkAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lc9H7gyoEeqrNqXyN2-duw" name="update">
+      <modelElement href="ApiMonumentos.uml#_h9NqgAyoEeqrNqXyN2-duw"/>
+      <visibility xmi:id="_lc9H7wyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lc9H8AyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lc9H8QyoEeqrNqXyN2-duw" name="t">
+        <modelElement href="ApiMonumentos.uml#_h9NqgQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lc9H8gyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lc9H8wyoEeqrNqXyN2-duw" name="T">
+          <modelElement href="ApiMonumentos.uml#_h8nNkAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lYBkgAyoEeqrNqXyN2-duw" name="ApiConfig" generalizations="_S_LvgAypEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hpuGwAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lYBkgQyoEeqrNqXyN2-duw" position="298.0,78.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_lYBkggyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+      <modelElement href="ApiMonumentos.uml#_hpvU4AyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_lYBkgwyoEeqrNqXyN2-duw" name="Annotations">
+      <modelElement href="ApiMonumentos.uml#_hpyYMAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_lYBkhAyoEeqrNqXyN2-duw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ldPbsAyoEeqrNqXyN2-duw" name="CorsFilter" generalizations="_4QYKkAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_hp5s8AyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_ldPbsQyoEeqrNqXyN2-duw" position="278.0,783.0" size="728.0,85.0"/>
+    <stereotypes xmi:id="_ldPbsgyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+      <modelElement href="ApiMonumentos.uml#_hp67EAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ldPbswyoEeqrNqXyN2-duw" name="Annotations">
+      <modelElement href="ApiMonumentos.uml#_hp8wQAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_ldPbtAyoEeqrNqXyN2-duw" label="+"/>
+    <operations xmi:id="_ldPbtQyoEeqrNqXyN2-duw" name="filter">
+      <modelElement href="ApiMonumentos.uml#_h9PfsAyoEeqrNqXyN2-duw"/>
+      <visualProperties xmi:id="_V3VoYAypEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_ldPbtgyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h9QGwAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_ldPbtwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_ldPbuAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ldPbuQyoEeqrNqXyN2-duw" name="requestContext">
+        <modelElement href="ApiMonumentos.uml#_h9PfsQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_ldPbugyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_ldPbuwyoEeqrNqXyN2-duw" name="ContainerRequestContext">
+          <modelElement href="ApiMonumentos.uml#_hwWTMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ldPbvAyoEeqrNqXyN2-duw" name="responseContext">
+        <modelElement href="ApiMonumentos.uml#_h9PfsgyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_ldPbvQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_ldPbvgyoEeqrNqXyN2-duw" name="ContainerResponseContext">
+          <modelElement href="ApiMonumentos.uml#_hwigcAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lZ83IAyoEeqrNqXyN2-duw" name="Monumento">
+    <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+    <visualProperties xmi:id="_lZ83IQyoEeqrNqXyN2-duw" position="507.0,-76.0" size="368.0,483.0"/>
+    <stereotypes xmi:id="_lZ83IgyoEeqrNqXyN2-duw" name="Table">
+      <modelElement href="ApiMonumentos.uml#_hqeUsAyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_lZ83IwyoEeqrNqXyN2-duw" name="JPA1StyledElement">
+      <modelElement href="ApiMonumentos.uml#_hqgJ4AyoEeqrNqXyN2-duw"/>
+    </stereotypes>
+    <visibility xmi:id="_lZ83JAyoEeqrNqXyN2-duw" label="+"/>
+    <attributes xmi:id="_lZ83JQyoEeqrNqXyN2-duw" name="id">
+      <modelElement href="ApiMonumentos.uml#_h-JeoAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ83JgyoEeqrNqXyN2-duw" name="PrimaryKey">
+        <modelElement href="ApiMonumentos.uml#_h-KFsAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ83JwyoEeqrNqXyN2-duw" name="GeneratedValueMapping">
+        <modelElement href="ApiMonumentos.uml#_h-LT0AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ83KAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ83KQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ83KgyoEeqrNqXyN2-duw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ83KwyoEeqrNqXyN2-duw" name="contador_usuarios">
+      <modelElement href="ApiMonumentos.uml#_h-L64AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ83LAyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_h-Mh8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ83LQyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h-NJAQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ83LgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ83LwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ83MAyoEeqrNqXyN2-duw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ83MQyoEeqrNqXyN2-duw" name="nombre_construccion">
+      <modelElement href="ApiMonumentos.uml#_h-NwEwyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ83MgyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h-XhEAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ83MwyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h-XhEQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ83NAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ83NQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ83NgyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ83NwyoEeqrNqXyN2-duw" name="fecha_construccion">
+      <modelElement href="ApiMonumentos.uml#_h-ZWQAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ83OAyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h-igMAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ83OQyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h-jHQAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ83OgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ83OwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eMAyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eMQyoEeqrNqXyN2-duw" name="duracion_construccion">
+      <modelElement href="ApiMonumentos.uml#_h-kVYAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eMgyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h-rDEAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eMwyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h-rDEQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eNAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eNQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eNgyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eNwyoEeqrNqXyN2-duw" name="tipo_arquitectura">
+      <modelElement href="ApiMonumentos.uml#_h-sRMAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eOAyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h-0NAAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eOQyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h-00EAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eOgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eOwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9ePAyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9ePQyoEeqrNqXyN2-duw" name="arquitecto">
+      <modelElement href="ApiMonumentos.uml#_h-2pQAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9ePgyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h-9W8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9ePwyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h-9W8QyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eQAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eQQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eQgyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eQwyoEeqrNqXyN2-duw" name="informacion">
+      <modelElement href="ApiMonumentos.uml#_h-9-AAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eRAyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_JkMAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eRQyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h_JkMQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eRgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eRwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eSAyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eSQyoEeqrNqXyN2-duw" name="leyendas">
+      <modelElement href="ApiMonumentos.uml#_h_KLQAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eSgyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_SuIAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eSwyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h_T8QAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eTAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eTQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eTgyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eTwyoEeqrNqXyN2-duw" name="contiene_restauraciones">
+      <modelElement href="ApiMonumentos.uml#_h_VKYAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eUAyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_dGMAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eUQyoEeqrNqXyN2-duw" name="NotNull">
+        <modelElement href="ApiMonumentos.uml#_h_dGMQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eUgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eUwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eVAyoEeqrNqXyN2-duw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eVQyoEeqrNqXyN2-duw" name="uso_edificio">
+      <modelElement href="ApiMonumentos.uml#_h_eUUAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eVgyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_oFUAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eVwyoEeqrNqXyN2-duw" name="NotEmpty">
+        <modelElement href="ApiMonumentos.uml#_h_oFUQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eWAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eWQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eWgyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eWwyoEeqrNqXyN2-duw" name="eliminado">
+      <modelElement href="ApiMonumentos.uml#_h_osYAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eXAyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_0SkAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eXQyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eXgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eXwyoEeqrNqXyN2-duw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eYAyoEeqrNqXyN2-duw" name="fecha_registro">
+      <modelElement href="ApiMonumentos.uml#_h_1gsAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eYQyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_h_1gsQyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9eYgyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_h_2u0QyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eYwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eZAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eZQyoEeqrNqXyN2-duw" name="Date">
+        <modelElement href="ApiMonumentos.uml#_h1yM0AyoEeqrNqXyN2-duw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lZ9eZgyoEeqrNqXyN2-duw" name="foto">
+      <modelElement href="ApiMonumentos.uml#_h_3V4AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eZwyoEeqrNqXyN2-duw" name="Column">
+        <modelElement href="ApiMonumentos.uml#_h_-DkAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eaAyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9eaQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <type xmi:id="_lZ9eagyoEeqrNqXyN2-duw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lZ9eawyoEeqrNqXyN2-duw" name="Monumento">
+      <modelElement href="ApiMonumentos.uml#_hqlpcAyoEeqrNqXyN2-duw"/>
+      <keywords xmi:id="_lZ9ebAyoEeqrNqXyN2-duw" keyword="create"/>
+      <stereotypes xmi:id="_lZ9ebQyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hqneoAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9ebgyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9ebwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ9ecAyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_hqneoQyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lZ9ecQyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lZ9ecgyoEeqrNqXyN2-duw" name="toString">
+      <modelElement href="ApiMonumentos.uml#_hqpT0AyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9ecwyoEeqrNqXyN2-duw" name="LegacyStyledElement">
+        <modelElement href="ApiMonumentos.uml#_hqp64QyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lZ9edAyoEeqrNqXyN2-duw" name="Annotations">
+        <modelElement href="ApiMonumentos.uml#_hqqh8AyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9edQyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9edgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ9edwyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_hqp64AyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lZ9eeAyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lZ9eeQyoEeqrNqXyN2-duw" comments="_N9ZhkAyyEeqrNqXyN2-duw" targetConnectionVisual="_N9aIoAyyEeqrNqXyN2-duw" name="actualizar">
+      <modelElement href="ApiMonumentos.uml#_h3bLkAyoEeqrNqXyN2-duw"/>
+      <stereotypes xmi:id="_lZ9eegyoEeqrNqXyN2-duw" name="StyledElement">
+        <modelElement href="ApiMonumentos.uml#_h3byoAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9eewyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9efAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lZ9efQyoEeqrNqXyN2-duw" name="m">
+        <modelElement href="ApiMonumentos.uml#_h3bLkQyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9efgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9efwyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lZ9egAyoEeqrNqXyN2-duw" comments="_N94CsAyyEeqrNqXyN2-duw" targetConnectionVisual="_N94CsQyyEeqrNqXyN2-duw" name="Monumento">
+      <modelElement href="ApiMonumentos.uml#_h9hzkAyoEeqrNqXyN2-duw"/>
+      <keywords xmi:id="_lZ9egQyoEeqrNqXyN2-duw" keyword="create"/>
+      <stereotypes xmi:id="_lZ9eggyoEeqrNqXyN2-duw" name="StyledElement">
+        <modelElement href="ApiMonumentos.uml#_h9nTIAyoEeqrNqXyN2-duw"/>
+      </stereotypes>
+      <visibility xmi:id="_lZ9egwyoEeqrNqXyN2-duw" label="+"/>
+      <cardinality xmi:id="_lZ9ehAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lZ9ehQyoEeqrNqXyN2-duw">
+        <modelElement href="ApiMonumentos.uml#_h9msEgyoEeqrNqXyN2-duw"/>
+        <type xmi:id="_lZ9ehgyoEeqrNqXyN2-duw" name="Monumento">
+          <modelElement href="ApiMonumentos.uml#_hqZcMAyoEeqrNqXyN2-duw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lZ9ehwyoEeqrNqXyN2-duw" name="id">
+        <modelElement href="ApiMonumentos.uml#_h9jowAyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9eiAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9eiQyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9eigyoEeqrNqXyN2-duw" name="contador_usuarios">
+        <modelElement href="ApiMonumentos.uml#_h9kP0AyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9eiwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9ejAyoEeqrNqXyN2-duw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9ejQyoEeqrNqXyN2-duw" name="nombre_construccion">
+        <modelElement href="ApiMonumentos.uml#_h9kP0QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9ejgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9ejwyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9ekAyoEeqrNqXyN2-duw" name="fecha_construccion">
+        <modelElement href="ApiMonumentos.uml#_h9k24AyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9ekQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9ekgyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9ekwyoEeqrNqXyN2-duw" name="duracion_construccion">
+        <modelElement href="ApiMonumentos.uml#_h9k24QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9elAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9elQyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9elgyoEeqrNqXyN2-duw" name="tipo_arquitectura">
+        <modelElement href="ApiMonumentos.uml#_h9k24gyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9elwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9emAyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9emQyoEeqrNqXyN2-duw" name="arquitecto">
+        <modelElement href="ApiMonumentos.uml#_h9k24wyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9emgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9emwyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9enAyoEeqrNqXyN2-duw" name="informacion">
+        <modelElement href="ApiMonumentos.uml#_h9k25AyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9enQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9engyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9enwyoEeqrNqXyN2-duw" name="leyendas">
+        <modelElement href="ApiMonumentos.uml#_h9k25QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9eoAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9eoQyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9eogyoEeqrNqXyN2-duw" name="contiene_restauraciones">
+        <modelElement href="ApiMonumentos.uml#_h9k25gyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9eowyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9epAyoEeqrNqXyN2-duw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9epQyoEeqrNqXyN2-duw" name="uso_edificio">
+        <modelElement href="ApiMonumentos.uml#_h9ld8AyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9epgyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9epwyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9eqAyoEeqrNqXyN2-duw" name="eliminado">
+        <modelElement href="ApiMonumentos.uml#_h9ld8QyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9eqQyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9eqgyoEeqrNqXyN2-duw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9eqwyoEeqrNqXyN2-duw" name="fecha_registro">
+        <modelElement href="ApiMonumentos.uml#_h9ld8gyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9erAyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9erQyoEeqrNqXyN2-duw" name="Date">
+          <modelElement href="ApiMonumentos.uml#_h1yM0AyoEeqrNqXyN2-duw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lZ9ergyoEeqrNqXyN2-duw" name="foto">
+        <modelElement href="ApiMonumentos.uml#_h9ld8wyoEeqrNqXyN2-duw"/>
+        <cardinality xmi:id="_lZ9erwyoEeqrNqXyN2-duw" label="1" max="1" min="1"/>
+        <type xmi:id="_lZ9esAyoEeqrNqXyN2-duw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_N9ZhkAyyEeqrNqXyN2-duw" sourceConnectionVisual="_N9aIoAyyEeqrNqXyN2-duw" text="Este metodo permite que el monumento se actualice&#xD;&#xA;&#x9; * con los parametros de otro monumento&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param m (Monumento)" item="_lZ9eeQyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_N9MtQwyyEeqrNqXyN2-duw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_N94CsAyyEeqrNqXyN2-duw" sourceConnectionVisual="_N94CsQyyEeqrNqXyN2-duw" text="&#xD;&#xA;&#x9; * @param id (int)&#xD;&#xA;&#x9; * @param contador_usuarios (int)&#xD;&#xA;&#x9; * @param nombre_construccion (String)&#xD;&#xA;&#x9; * @param fecha_construccion (String)&#xD;&#xA;&#x9; * @param duracion_construccion (String)&#xD;&#xA;&#x9; * @param tipo_arquitectura (String)&#xD;&#xA;&#x9; * @param arquitecto (String)&#xD;&#xA;&#x9; * @param informacion (String)&#xD;&#xA;&#x9; * @param leyendas (String)&#xD;&#xA;&#x9; * @param contiene_restauraciones (boolean)&#xD;&#xA;&#x9; * @param uso_edificio (String)&#xD;&#xA;&#x9; * @param eliminado (boolean)&#xD;&#xA;&#x9; * @param fecha_registro (Date)&#xD;&#xA;&#x9; * @param foto (String)" item="_lZ9egAyoEeqrNqXyN2-duw">
+    <modelElement href="ApiMonumentos.uml#_N9MtQgyyEeqrNqXyN2-duw"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

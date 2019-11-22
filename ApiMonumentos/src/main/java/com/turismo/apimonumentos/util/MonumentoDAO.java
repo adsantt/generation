@@ -1,10 +1,12 @@
 package com.turismo.apimonumentos.util;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceException;
 import javax.persistence.RollbackException;
 import javax.validation.ConstraintViolation;
@@ -56,19 +58,18 @@ public class MonumentoDAO implements DAO<Monumento> {
 		tx.rollback();
 	}
 	
-	public String validateBean(Monumento m) {
+	public List<String> validateBean(Monumento m) {
 		Validator validator=null;
 		
 		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
 		validator=factory.getValidator();
-		String message=null;
+		List<String> message=null;
 		Set<ConstraintViolation<Monumento>> violations=validator.validate(m);
 		if (!violations.isEmpty()) {
-			message="Los campos ";
+			message=new ArrayList<>();
 			for (ConstraintViolation<Monumento> violation:violations) {
-				message+=violation.getMessage()+", ";
+				message.add(violation.getMessage());
 			}
-			message+="no pueden estar vacios";
 		}
 		return message;
 	}
@@ -76,13 +77,17 @@ public class MonumentoDAO implements DAO<Monumento> {
 	@Override
 	public boolean create(Monumento m) {
 		m.setFecha_registro(new Date());
+		String name=m.getNombre_construccion().replace(' ','%');
 		
 		Monumento monumentoDB=null;
-		
-		monumentoDB=(Monumento) session.createQuery("FROM Monumento m "
-				+ "WHERE m.nombre_construccion LIKE :nombre")
-				.setParameter("nombre", '%'+ m.getNombre_construccion()+'%')
-				.getSingleResult();
+		try {
+			monumentoDB=(Monumento) session.createQuery("FROM Monumento m "
+					+ "WHERE m.nombre_construccion LIKE :nombre")
+					.setParameter("nombre", '%'+name+'%')
+					.getSingleResult();			
+		} catch (NoResultException e) {
+			monumentoDB=null;
+		}
 		if (monumentoDB==null) {
 			session.save(m);
 		}else if (monumentoDB!=null && monumentoDB.isEliminado()) {
@@ -172,18 +177,23 @@ public class MonumentoDAO implements DAO<Monumento> {
 	
 	public Monumento getByPhoto(String json) {
 		
+		Monumento monumentoDB=null;
+		
 		Client cliente=ClientBuilder.newClient();
-		WebTarget target=cliente.target("http://192.168.100.155:4000/api/test");
+		WebTarget target=cliente.target("http://192.168.1.15:4000/api/monuments");
 		
 		Invocation.Builder request=target.request(MediaType.APPLICATION_JSON);
 		
 		Response rs=request.accept(MediaType.APPLICATION_JSON)
 				.post(Entity.entity(json, MediaType.APPLICATION_JSON));
-		@SuppressWarnings("unchecked")
-		Map<String, Object> jsonResponse=rs.readEntity(Map.class);
-		String nombre=(String) jsonResponse.get("name");
-		Monumento monumentoDB=getByName(nombre);
+		System.out.println(rs);
 		
+		if (rs.getStatus()==200) {
+			@SuppressWarnings("unchecked")
+			Map<String, Object> jsonResponse=rs.readEntity(Map.class);
+			String nombre=(String) jsonResponse.get("name");
+			monumentoDB=getByName(nombre);			
+		} 		
 		return monumentoDB;
 	}
 
