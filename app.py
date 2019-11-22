@@ -63,12 +63,12 @@ def get_monument():
             cascades_dir = 'haarcascade'
             list_cascades = os.listdir(cascades_dir)
             for cascade_dir in os.listdir(cascades_dir):
-                print("1")
+
                 for file in os.listdir(os.path.join(cascades_dir,
                                                     cascade_dir)):
-                    print("2")
+
                     if file.endswith(".xml"):
-                        print("3")
+
                         casc_path = os.path.join(
                             cascades_dir, cascade_dir, file)
                         monument_cascade = cv2.CascadeClassifier(casc_path)
@@ -79,19 +79,20 @@ def get_monument():
                         found = monument_cascade.detectMultiScale(
                             img, json_setting['scaleFactore'], json_setting['minNeighbors'])
                         for (x, y, w, h) in found:
-                            cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                            print("4")
+                            cv2.rectangle(
+                                img, (x, y), (x+w, y+h), (0, 255, 0), 2)
+
                             cv2.imwrite("decoImg.jpg", img)
                         if x is not None:
-                            print("5")
+
                             return jsonify({"status": "200",
                                             "message": "Monument found",
                                             "name": cascade_dir}), 200
-                
+
         return jsonify({"status": "404", "message": "Could not found the monument"}), 404
-    
+
     except expression as identifier:
-        return jsonify({"status":"500", "message":"internal error"}), 500
+        return jsonify({"status": "500", "message": "internal error"}), 500
 
 
 @app.route('/api/monuments', methods=['GET'])
