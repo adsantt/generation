@@ -1,0 +1,65 @@
+    <div class="monumento-container container ">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <div id="foto" class="card mb-3 " style="width: 300px ">
+                </div>
+                <div class="card-block ">
+                    <i>Nombre de construcción:</i>
+                    <b><p id="construccion"></p></b>
+                    <i>Fecha de construcción:</i>
+                    <b><p id="fecha-construccion"></p></b>
+                    <i>Arquitecto:</i>
+                    <b><p id="arquitecto"></p></b>
+                    <i>Estilo:</i>
+                    <b><p id="estilo"></p></b>
+                </div>
+            </div>
+            <div class="col-sm-8 info">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h4 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <b>Acerca de la construcción</b>
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <p id="informacion"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h4 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <b>Antecedentes</b>
+                            </button>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Tiempo de construcción: <p id="duracion"></p>
+                                Usos del edificio: <p id="usos"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h4 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <b>Curiosidades</b>
+                                </button>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <p id="leyendas"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

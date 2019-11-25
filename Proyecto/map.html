@@ -1,0 +1,79 @@
+
+    <div class="monumento-container container">
+    <h1>City Stories Map</h1>
+    <div id="map"></div>
+    <script>
+      var map;
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        var sjd = { lat: 20.6755464, lng: -103.3420406 };
+        var hc = { lat: 20.6763649, lng: -103.3407729 };
+        var cdd = { lat: 20.6779345, lng: -103.3443674 };
+        var parm = { lat: 20.6779594, lng: -103.3509335 };
+        var clf = { lat: 20.677743, lng: -103.347811 };
+        var pdg = { lat: 20.6762414, lng: -103.3483611 };
+        var cate = { lat: 20.677039, lng: -103.3491727 };
+        var casadep = { lat: 20.6799521, lng: -103.3478543 };
+
+        // The map, centered at Uluru
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 17,
+          center: sjd
+        });
+
+        var iconBase = "";
+         
+        var icons = {
+          hc: {
+            icon: iconBase + "UI/hc.jpg"
+          },
+          ted: {
+            icon: iconBase + "UI/ted.jpg"
+          },
+          casadep: {
+            icon: iconBase + "UI/casadep.jpg"
+          }
+        };
+
+        var features = [
+          {
+            position: new google.maps.LatLng(20.6769024, -103.3373288),
+            type: "hc"
+          },
+          {
+            position: new google.maps.LatLng(20.6767535, -103.3451022),
+            type: "ted"
+          },
+          {
+            position: new google.maps.LatLng(20.6799521, -103.3478543),
+            type: "casadep"
+          }
+        ];
+        // Create markers.
+        for (var i = 0; i < features.length; i++) {
+          var marker = new google.maps.Marker({
+            position: features[i].position,
+            icon: icons[features[i].type].icon,
+            map: map
+          });
+        }
+        function addMarker(feature) {
+          var marker = new google.maps.Marker({
+            position: feature.position,
+            icon: icons[feature.type].icon,
+            map: map
+          });
+        }
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: sjd, map: map });
+        var marker2 = new google.maps.Marker({ position: hc, map: map });
+        var marker3 = new google.maps.Marker({ position: cdd, map: map });
+        var marker4 = new google.maps.Marker({ position: parm, map: map });
+        var marker5 = new google.maps.Marker({ position: ted, map: map });
+        var marker6 = new google.maps.Marker({ position: clf, map: map });
+        var marker7 = new google.maps.Marker({ position: pdg, map: map });
+        var marker8 = new google.maps.Marker({ position: cate, map: map });
+        var marker9 = new google.maps.Marker({ position: casadep, map: map });
+      }
+    </script>
